@@ -1,0 +1,311 @@
+<!doctype html>
+<!-- (C) 2019 vik@etogo.net -->
+<html>
+    <head>
+
+        <meta charset="UTF-8">
+
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+        <meta name="viewport"
+              content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, shrink-to-fit=no, user-scalable=no"/>
+
+        <meta name="HandheldFriendly" content="true">
+
+        <link rel="shortcut icon" type="image/x-icon" href="favicon.ico"/>
+
+        <link rel="apple-touch-icon" sizes="57x57" href="icon-57.png"/>
+        <link rel="apple-touch-icon" sizes="60x60" href="icon-60.png"/>
+        <link rel="apple-touch-icon" sizes="72x72" href="icon-72.png"/>
+        <link rel="apple-touch-icon" sizes="114x114" href="icon-114.png"/>
+        <link rel="apple-touch-icon" sizes="120x120" href="icon-120.png"/>
+        <link rel="apple-touch-icon" sizes="144x144" href="icon-144.png"/>
+        <link rel="apple-touch-icon" sizes="152x152" href="icon-152.png"/>
+        <link rel="icon" type="image/png" sizes="16x16" href="icon-16.png"/>
+        <link rel="icon" type="image/png" sizes="32x32" href="icon-32.png"/>
+        <link rel="icon" type="image/png" sizes="96x96" href="icon-96.png"/>
+        <link rel="icon" type="image/png" sizes="160x160" href="icon-160.png"/>
+        <link rel="icon" type="image/png" sizes="192x192" href="icon-192.png"/>
+
+        <link rel="stylesheet" href="index.css" type="text/css">
+
+        <script src="utils.js"></script>
+        <script src="tabs.js"></script>
+        <script src="index.js"></script>
+        <script src="drag.js"></script>
+        <script src="resizer.js"></script>
+
+        <title>
+            Smart Box
+        </title>
+    </head>
+
+    <body>
+
+        <div id="body-background"></div>
+
+
+        <div id="title">
+            <div>
+                <img src="title.svg" id="mainFan">
+            </div>
+            <div>
+                Smart Box
+            </div>
+        </div>
+
+        <div id="tabsContainer" class="tabsContainer">
+            <div id="menu" class="tabsMenu">
+                <div id="tabAll" class="tab" relatedTab="viewAll">
+                    <img src="fan.svg">
+                    <div class="tabtext">
+                        Device Status
+                    </div>
+                </div>
+                <div id="tabTemp" class="tab selected" relatedTab="viewTemp">
+                    <img src="thermo.svg">
+                    <div class="tabtext">
+                        Temperatures
+                    </div>
+                </div>
+                <div id="tabWifiAp" class="tab" relatedTab="viewWifiAp">
+                    <img src="wifi-ap.svg">
+                    <div class="tabtext">
+                        WiFi AP
+                    </div>
+                </div>
+                <div id="tabWifiClient" class="tab" relatedTab="viewWifiClient">
+                    <img src="wifi.svg">
+                    <div class="tabtext">
+                        Connect to WiFi
+                    </div>
+                </div>
+                <div id="tabSound" class="tab" relatedTab="viewSound">
+                    <img src="trumpet.svg">
+                    <div class="tabtext">
+                        Alarms
+                    </div>
+                </div>
+            </div>
+
+            <div id="mainView" class="tabsMainView">
+                <div id="viewAll" class="tabsTab">
+                    <div class="header">System parameters</div>
+                    <div class="content">
+                        <div>
+                            Current temperature:
+                            <div id="currentTemp">26</div>
+                            ℃
+                        </div>
+                        <div>
+                            Current rotation:
+                            <div id="currentRotationPercents">75</div>
+                            %
+                        </div>
+                        <div>
+                            WiFi Access Point:
+                            <div id="apName">box</div>
+                        </div>
+                        <div>
+                            WiFi:
+                            <div id="wifiName">Not connected</div>
+                        </div>
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
+                        labore et dolore magna aliqua. Vulputate mi sit amet mauris commodo quis imperdiet. Quis risus
+                        sed vulputate odio. Vitae suscipit tellus mauris a diam maecenas sed enim ut. Sit amet justo
+                        donec enim. Aliquet nec ullamcorper sit amet risus. Id faucibus nisl tincidunt eget. Scelerisque
+                        felis imperdiet proin fermentum leo vel orci porta. Dui id ornare arcu odio ut sem. Magna sit
+                        amet purus gravida quis blandit turpis cursus in. Egestas integer eget aliquet nibh praesent
+                        tristique magna sit amet. Vitae congue eu consequat ac felis donec et. At tellus at urna
+                        condimentum mattis pellentesque id nibh tortor. Nec nam aliquam sem et tortor. Mattis aliquam
+                        faucibus purus in massa tempor nec feugiat. Placerat vestibulum lectus mauris ultrices. Sit amet
+                        nisl suscipit adipiscing bibendum est ultricies integer quis. In ante metus dictum at tempor.
+                        Cras adipiscing enim eu turpis egestas pretium aenean pharetra magna.
+
+                        Massa massa ultricies mi quis hendrerit dolor. Semper feugiat nibh sed pulvinar proin gravida.
+                        Mi bibendum neque egestas congue quisque egestas diam in arcu. Tincidunt arcu non sodales neque.
+                        At risus viverra adipiscing at in tellus integer. In tellus integer feugiat scelerisque varius
+                        morbi enim nunc. Tellus at urna condimentum mattis pellentesque id nibh. Lectus nulla at
+                        volutpat diam ut. Eget nulla facilisi etiam dignissim diam. Non arcu risus quis varius quam.
+
+                        Varius sit amet mattis vulputate. Magna fermentum iaculis eu non diam. Tincidunt ornare massa
+                        eget egestas. Pellentesque dignissim enim sit amet. Quis risus sed vulputate odio. Mattis nunc
+                        sed blandit libero volutpat sed cras. Placerat orci nulla pellentesque dignissim enim. Viverra
+                        nibh cras pulvinar mattis nunc sed. Urna nunc id cursus metus aliquam eleifend. Cras sed felis
+                        eget velit aliquet sagittis. Id interdum velit laoreet id donec.
+
+                        Tempus quam pellentesque nec nam aliquam sem et tortor. Ipsum a arcu cursus vitae. Neque
+                        convallis a cras semper auctor neque vitae. Consectetur adipiscing elit pellentesque habitant
+                        morbi. Odio ut enim blandit volutpat maecenas volutpat. Erat velit scelerisque in dictum non
+                        consectetur a. Elit ut aliquam purus sit amet luctus venenatis lectus magna. Mauris augue neque
+                        gravida in. Eget velit aliquet sagittis id. Ornare massa eget egestas purus viverra. Mi in nulla
+                        posuere sollicitudin. Facilisis leo vel fringilla est ullamcorper eget nulla. Cursus risus at
+                        ultrices mi. Porta nibh venenatis cras sed felis eget velit aliquet sagittis. Scelerisque
+                        eleifend donec pretium vulputate sapien nec sagittis aliquam. Ullamcorper velit sed ullamcorper
+                        morbi tincidunt ornare massa eget. Commodo viverra maecenas accumsan lacus vel facilisis
+                        volutpat. Id ornare arcu odio ut sem nulla pharetra. Diam sit amet nisl suscipit adipiscing
+                        bibendum est ultricies.
+
+                        Velit euismod in pellentesque massa placerat duis ultricies lacus sed. Egestas pretium aenean
+                        pharetra magna ac placerat vestibulum lectus. Massa ultricies mi quis hendrerit dolor magna eget
+                        est. Facilisis gravida neque convallis a cras semper auctor. Purus semper eget duis at tellus at
+                        urna. Tellus orci ac auctor augue mauris. Massa vitae tortor condimentum lacinia. Id leo in
+                        vitae turpis massa sed elementum tempus egestas. Ut sem viverra aliquet eget sit amet. Id semper
+                        risus in hendrerit gravida. Nulla facilisi morbi tempus iaculis urna id. Ligula ullamcorper
+                        malesuada proin libero. Dolor sed viverra ipsum nunc aliquet.
+
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
+                        labore et dolore magna aliqua. Vulputate mi sit amet mauris commodo quis imperdiet. Quis risus
+                        sed vulputate odio. Vitae suscipit tellus mauris a diam maecenas sed enim ut. Sit amet justo
+                        donec enim. Aliquet nec ullamcorper sit amet risus. Id faucibus nisl tincidunt eget. Scelerisque
+                        felis imperdiet proin fermentum leo vel orci porta. Dui id ornare arcu odio ut sem. Magna sit
+                        amet purus gravida quis blandit turpis cursus in. Egestas integer eget aliquet nibh praesent
+                        tristique magna sit amet. Vitae congue eu consequat ac felis donec et. At tellus at urna
+                        condimentum mattis pellentesque id nibh tortor. Nec nam aliquam sem et tortor. Mattis aliquam
+                        faucibus purus in massa tempor nec feugiat. Placerat vestibulum lectus mauris ultrices. Sit amet
+                        nisl suscipit adipiscing bibendum est ultricies integer quis. In ante metus dictum at tempor.
+                        Cras adipiscing enim eu turpis egestas pretium aenean pharetra magna.
+
+                        Massa massa ultricies mi quis hendrerit dolor. Semper feugiat nibh sed pulvinar proin gravida.
+                        Mi bibendum neque egestas congue quisque egestas diam in arcu. Tincidunt arcu non sodales neque.
+                        At risus viverra adipiscing at in tellus integer. In tellus integer feugiat scelerisque varius
+                        morbi enim nunc. Tellus at urna condimentum mattis pellentesque id nibh. Lectus nulla at
+                        volutpat diam ut. Eget nulla facilisi etiam dignissim diam. Non arcu risus quis varius quam.
+
+                        Varius sit amet mattis vulputate. Magna fermentum iaculis eu non diam. Tincidunt ornare massa
+                        eget egestas. Pellentesque dignissim enim sit amet. Quis risus sed vulputate odio. Mattis nunc
+                        sed blandit libero volutpat sed cras. Placerat orci nulla pellentesque dignissim enim. Viverra
+                        nibh cras pulvinar mattis nunc sed. Urna nunc id cursus metus aliquam eleifend. Cras sed felis
+                        eget velit aliquet sagittis. Id interdum velit laoreet id donec.
+
+                        Tempus quam pellentesque nec nam aliquam sem et tortor. Ipsum a arcu cursus vitae. Neque
+                        convallis a cras semper auctor neque vitae. Consectetur adipiscing elit pellentesque habitant
+                        morbi. Odio ut enim blandit volutpat maecenas volutpat. Erat velit scelerisque in dictum non
+                        consectetur a. Elit ut aliquam purus sit amet luctus venenatis lectus magna. Mauris augue neque
+                        gravida in. Eget velit aliquet sagittis id. Ornare massa eget egestas purus viverra. Mi in nulla
+                        posuere sollicitudin. Facilisis leo vel fringilla est ullamcorper eget nulla. Cursus risus at
+                        ultrices mi. Porta nibh venenatis cras sed felis eget velit aliquet sagittis. Scelerisque
+                        eleifend donec pretium vulputate sapien nec sagittis aliquam. Ullamcorper velit sed ullamcorper
+                        morbi tincidunt ornare massa eget. Commodo viverra maecenas accumsan lacus vel facilisis
+                        volutpat. Id ornare arcu odio ut sem nulla pharetra. Diam sit amet nisl suscipit adipiscing
+                        bibendum est ultricies.
+
+                        Velit euismod in pellentesque massa placerat duis ultricies lacus sed. Egestas pretium aenean
+                        pharetra magna ac placerat vestibulum lectus. Massa ultricies mi quis hendrerit dolor magna eget
+                        est. Facilisis gravida neque convallis a cras semper auctor. Purus semper eget duis at tellus at
+                        urna. Tellus orci ac auctor augue mauris. Massa vitae tortor condimentum lacinia. Id leo in
+                        vitae turpis massa sed elementum tempus egestas. Ut sem viverra aliquet eget sit amet. Id semper
+                        risus in hendrerit gravida. Nulla facilisi morbi tempus iaculis urna id. Ligula ullamcorper
+                        malesuada proin libero. Dolor sed viverra ipsum nunc aliquet.
+
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
+                        labore et dolore magna aliqua. Vulputate mi sit amet mauris commodo quis imperdiet. Quis risus
+                        sed vulputate odio. Vitae suscipit tellus mauris a diam maecenas sed enim ut. Sit amet justo
+                        donec enim. Aliquet nec ullamcorper sit amet risus. Id faucibus nisl tincidunt eget. Scelerisque
+                        felis imperdiet proin fermentum leo vel orci porta. Dui id ornare arcu odio ut sem. Magna sit
+                        amet purus gravida quis blandit turpis cursus in. Egestas integer eget aliquet nibh praesent
+                        tristique magna sit amet. Vitae congue eu consequat ac felis donec et. At tellus at urna
+                        condimentum mattis pellentesque id nibh tortor. Nec nam aliquam sem et tortor. Mattis aliquam
+                        faucibus purus in massa tempor nec feugiat. Placerat vestibulum lectus mauris ultrices. Sit amet
+                        nisl suscipit adipiscing bibendum est ultricies integer quis. In ante metus dictum at tempor.
+                        Cras adipiscing enim eu turpis egestas pretium aenean pharetra magna.
+
+                        Massa massa ultricies mi quis hendrerit dolor. Semper feugiat nibh sed pulvinar proin gravida.
+                        Mi bibendum neque egestas congue quisque egestas diam in arcu. Tincidunt arcu non sodales neque.
+                        At risus viverra adipiscing at in tellus integer. In tellus integer feugiat scelerisque varius
+                        morbi enim nunc. Tellus at urna condimentum mattis pellentesque id nibh. Lectus nulla at
+                        volutpat diam ut. Eget nulla facilisi etiam dignissim diam. Non arcu risus quis varius quam.
+
+                        Varius sit amet mattis vulputate. Magna fermentum iaculis eu non diam. Tincidunt ornare massa
+                        eget egestas. Pellentesque dignissim enim sit amet. Quis risus sed vulputate odio. Mattis nunc
+                        sed blandit libero volutpat sed cras. Placerat orci nulla pellentesque dignissim enim. Viverra
+                        nibh cras pulvinar mattis nunc sed. Urna nunc id cursus metus aliquam eleifend. Cras sed felis
+                        eget velit aliquet sagittis. Id interdum velit laoreet id donec.
+
+                        Tempus quam pellentesque nec nam aliquam sem et tortor. Ipsum a arcu cursus vitae. Neque
+                        convallis a cras semper auctor neque vitae. Consectetur adipiscing elit pellentesque habitant
+                        morbi. Odio ut enim blandit volutpat maecenas volutpat. Erat velit scelerisque in dictum non
+                        consectetur a. Elit ut aliquam purus sit amet luctus venenatis lectus magna. Mauris augue neque
+                        gravida in. Eget velit aliquet sagittis id. Ornare massa eget egestas purus viverra. Mi in nulla
+                        posuere sollicitudin. Facilisis leo vel fringilla est ullamcorper eget nulla. Cursus risus at
+                        ultrices mi. Porta nibh venenatis cras sed felis eget velit aliquet sagittis. Scelerisque
+                        eleifend donec pretium vulputate sapien nec sagittis aliquam. Ullamcorper velit sed ullamcorper
+                        morbi tincidunt ornare massa eget. Commodo viverra maecenas accumsan lacus vel facilisis
+                        volutpat. Id ornare arcu odio ut sem nulla pharetra. Diam sit amet nisl suscipit adipiscing
+                        bibendum est ultricies.
+
+                        Velit euismod in pellentesque massa placerat duis ultricies lacus sed. Egestas pretium aenean
+                        pharetra magna ac placerat vestibulum lectus. Massa ultricies mi quis hendrerit dolor magna eget
+                        est. Facilisis gravida neque convallis a cras semper auctor. Purus semper eget duis at tellus at
+                        urna. Tellus orci ac auctor augue mauris. Massa vitae tortor condimentum lacinia. Id leo in
+                        vitae turpis massa sed elementum tempus egestas. Ut sem viverra aliquet eget sit amet. Id semper
+                        risus in hendrerit gravida. Nulla facilisi morbi tempus iaculis urna id. Ligula ullamcorper
+                        malesuada proin libero. Dolor sed viverra ipsum nunc aliquet.
+
+                    </div>
+                </div>
+
+                <div id="viewTemp" class="tabsTab">
+                    <div class="header">Temperature settings</div>
+                    <div class="content">
+                    </div>
+                </div>
+
+                <div id="viewWifiAp" class="tabsTab">
+                    <div class="header">Access Point Settings</div>
+                    <div class="content">
+                    </div>
+                </div>
+
+                <div id="viewWifiClient" class="tabsTab">
+                    <div class="header">Connect to the Wi-Fi Network</div>
+                    <div class="content">
+                    </div>
+                </div>
+
+                <div id="viewSound" class="tabsTab">
+                    <div class="header">Alarm Settings</div>
+                    <div class="content">
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <input type="button" id="save" value="✓">
+
+
+        <div id="aboutCover" class="initial">
+            <div id="about" class="hidden">
+                <div id="aboutTitle">
+                    <div id="aboutButtons">
+                        <img src="close.svg">
+                    </div>
+                    <div id="aboutTitleText">
+                        Smart box
+                    </div>
+                </div>
+                <div id="aboutContent">
+                    <div>
+                        <img src="cooler.svg">
+                    </div>
+                    <div>
+                        <div>
+                            Smart Fan Control Thermostat
+                        </div>
+                        <div>
+                            Version 1.17<br>
+                            © 2019 <a href="https://intelligent-systems.com.ua" target="Intelligent Systems">Intelligent Systems ltd</a><br>
+                            Based on <a href="http://ip.cadence.com" target="about">Tensilica MCU</a><br>
+                            Based on <a href="https://www.espressif.com/" target="about">Espressif</a> <a href="https://www.espressif.com/en/products/hardware/esp8266ex/overview" target="about">ESP8266</a><br>
+                            Based on <a href="https://www.arduino.cc" target="about">Arduino</a> and <a href="https://github.com/esp8266/Arduino" target="about">Arduino Core</a><br>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div id="bottom"></div>
+    </body>
+
+</html>
+
