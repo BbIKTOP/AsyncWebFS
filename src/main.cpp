@@ -9,7 +9,7 @@
 #endif
 #include <ESPAsyncWebServer.h>
 
-#include "wifi_creds.h"
+#include <wifi_creds.h>
 
 extern void sendData(AsyncWebServerRequest *request);
 
@@ -26,7 +26,7 @@ void notFound(AsyncWebServerRequest *request)
 void setup()
 {
   Serial.begin(115200);
-  Serial.println("");
+  Serial.println("\n");
 
   LittleFS.begin();
 
